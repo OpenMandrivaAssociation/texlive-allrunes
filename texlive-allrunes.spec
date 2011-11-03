@@ -1,3 +1,9 @@
+# revision 21886
+# category Package
+# catalog-ctan /fonts/allrunes
+# catalog-date 2007-01-14 10:14:42 +0100
+# catalog-license lppl
+# catalog-version 2.1
 Name:		texlive-allrunes
 Version:	2.1
 Release:	1
@@ -492,6 +498,7 @@ lot of varieties.
 #- source
 %doc %{_texmfdistdir}/source/fonts/allrunes/allrunes.dtx
 %doc %{_texmfdistdir}/source/fonts/allrunes/allrunes.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -502,3 +509,5 @@ lot of varieties.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
