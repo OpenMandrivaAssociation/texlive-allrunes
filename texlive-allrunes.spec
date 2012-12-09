@@ -498,3 +498,18 @@ lot of varieties.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.1-2
++ Revision: 749162
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.1-1
++ Revision: 717814
+- texlive-allrunes
+- texlive-allrunes
+- texlive-allrunes
+- texlive-allrunes
+- texlive-allrunes
+
