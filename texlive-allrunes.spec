@@ -6,7 +6,7 @@
 # catalog-version 2.1
 Name:		texlive-allrunes
 Version:	2.1
-Release:	9
+Release:	10
 Summary:	Fonts and LaTeX package for almost all runes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/allrunes
