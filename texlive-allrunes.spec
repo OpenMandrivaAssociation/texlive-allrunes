@@ -5,9 +5,9 @@ Summary:	Fonts and LaTeX package for almost all runes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/allrunes
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/allrunes.r42221.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/allrunes.doc.r42221.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/allrunes.source.r42221.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/allrunes.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/allrunes.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/allrunes.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
