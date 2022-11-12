@@ -1,13 +1,13 @@
 Name:		texlive-allrunes
-Version:	2.1.1
-Release:	2
+Version:	42221
+Release:	1
 Summary:	Fonts and LaTeX package for almost all runes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/allrunes
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/allrunes.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/allrunes.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/allrunes.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/allrunes.r42221.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/allrunes.doc.r42221.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/allrunes.source.r42221.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -20,12 +20,12 @@ Europe. The bundle covers not only the main forms but also a
 lot of varieties.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -39,7 +39,8 @@ lot of varieties.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
