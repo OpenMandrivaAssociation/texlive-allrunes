@@ -1,6 +1,6 @@
 Name:		texlive-allrunes
 Version:	42221
-Release:	1
+Release:	2
 Summary:	Fonts and LaTeX package for almost all runes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/allrunes
