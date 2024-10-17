@@ -3,7 +3,7 @@ Version:	42221
 Release:	3
 Summary:	Fonts and LaTeX package for almost all runes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/allrunes
+URL:		https://www.ctan.org/tex-archive/fonts/allrunes
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/allrunes.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/allrunes.doc.r%{version}.tar.xz
